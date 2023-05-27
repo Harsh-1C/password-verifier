@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pwd verifier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <label for="pwd" id="pwdlab">Enter your password</label>
+            <input type="password" id="pwd" placeholder="Enter Your password">
+           <input type="checkbox" name="" id="chkbox">
+        </div>
+    
+        <div class="condition">
+            <div class="check" id="c1">
+                <div class="tick"><i class="fas fa-times-circle"></i></div>
+                Password length must be of atleast 8 character
+            </div>
+            <div class="check" id="c2">
+                <div class="tick"><i class="fas fa-times-circle"></i></div>
+                Password contain atleast one capital letter
+            </div>
+            <div class="check" id="c3">
+                <div class="tick"> <i class="fas fa-times-circle"></i> </div>
+                Password contain atleast one numeric character
+            </div>
+            <div class="check" id="c4">
+                <div class="tick"><i class="fas fa-times-circle"></i></div>
+                Password contain atleast one special character
+            </div>
+        </div>
+    
+        <button class="btn">Verify</button>
+    </div>
+
+    
+</body>
+<script src="script.js"></script>
+</html>
